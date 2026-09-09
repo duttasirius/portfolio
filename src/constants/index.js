@@ -162,16 +162,4 @@ const socialImgs = [
   { name: "x", imgPath: "/images/x.png" },
 ];
 
-export {
-  words,
-  abilities,
-  logoIconsList,
-  counterItems,
-  expCards,
-  expLogos,
-  testimonials,
-  socialImgs,
-  techStackIcons,
-  techStackImgs,
-  navLinks,
-};
+export { words, abilities, logoIconsList, counterItems, expCards, expLogos, testimonials, socialImgs, techStackIcons, techStackImgs, navLinks };
