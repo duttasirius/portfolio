@@ -19,48 +19,54 @@ const words = [
 const counterItems = [
   { value: 10, suffix: "+", label: "GitHub Projects" },
   { value: 3, suffix: "+", label: "Full-Stack Apps" },
-  { value: 2, suffix: "+", label: "AI-Powered Features" },
+  { value: 2, suffix: "+", label: "AI-Powered Apps" },
   { value: 1, suffix: "", label: "Engineering Focus" },
 ];
 
 const logoIconsList = [
-  { name: "React", imgPath: "/images/logos/react.png" },
-  { name: "Node.js", imgPath: "/images/logos/node.png" },
-  { name: "Python", imgPath: "/images/logos/python.svg" },
-  { name: "Git", imgPath: "/images/logos/git.svg" },
-  { name: "Three.js", imgPath: "/images/logos/three.png" },
-  { name: "JavaScript", imgPath: "/images/logos/js.svg" },
+  { name: "React", imgPath: "https://cdn.simpleicons.org/react/61DAFB" },
+  { name: "Next.js", imgPath: "https://cdn.simpleicons.org/nextdotjs/FFFFFF" },
+  { name: "JavaScript", imgPath: "https://cdn.simpleicons.org/javascript/F7DF1E" },
+  { name: "TypeScript", imgPath: "https://cdn.simpleicons.org/typescript/3178C6" },
+  { name: "Node.js", imgPath: "https://cdn.simpleicons.org/nodedotjs/339933" },
+  { name: "Express.js", imgPath: "https://cdn.simpleicons.org/express/FFFFFF" },
+  { name: "MongoDB", imgPath: "https://cdn.simpleicons.org/mongodb/47A248" },
+  { name: "Mongoose", imgPath: "https://cdn.simpleicons.org/mongoose/880000" },
+  { name: "Tailwind CSS", imgPath: "https://cdn.simpleicons.org/tailwindcss/06B6D4" },
+  { name: "Redux Toolkit", imgPath: "https://cdn.simpleicons.org/redux/764ABC" },
+  { name: "Socket.IO", imgPath: "https://cdn.simpleicons.org/socketdotio/FFFFFF" },
+  { name: "Stripe", imgPath: "https://cdn.simpleicons.org/stripe/635BFF" },
+  { name: "Razorpay", imgPath: "https://cdn.simpleicons.org/razorpay/3395FF" },
+  { name: "Cloudinary", imgPath: "https://cdn.simpleicons.org/cloudinary/3448C5" },
+  { name: "Gemini AI", imgPath: "https://cdn.simpleicons.org/googlegemini/8E75FF" },
+  { name: "Git", imgPath: "https://cdn.simpleicons.org/git/F05032" },
+  { name: "GitHub", imgPath: "https://cdn.simpleicons.org/github/FFFFFF" },
+  { name: "Vercel", imgPath: "https://cdn.simpleicons.org/vercel/FFFFFF" },
+  { name: "Postman", imgPath: "https://cdn.simpleicons.org/postman/FF6C37" },
 ];
 
 const abilities = [
   {
     imgPath: "/images/code.png",
     title: "Full-Stack Engineering",
-    desc: "Builds end-to-end web applications across React frontends, Express/Node.js APIs, MongoDB data models and cloud services.",
+    desc: "Builds end-to-end applications with React or Next.js, Express/Node.js APIs, MongoDB data models and production-focused workflows.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "AI Product Integration",
-    desc: "Connects Gemini and LLM-powered features to real application data with validation, fallback strategies and user-friendly interfaces.",
+    title: "AI Integration",
+    desc: "Integrates Gemini and LLM-powered search experiences with real application data, validation, deterministic fallbacks and useful product UX.",
   },
   {
     imgPath: "/images/time.png",
     title: "Production-Minded Delivery",
-    desc: "Focuses on authentication, payments, deployment, responsive UI, debugging and maintainable project structure—not just demos.",
+    desc: "Focuses on authentication, payments, cloud media, realtime features, responsive interfaces, debugging and deployment readiness.",
   },
 ];
 
-const techStackImgs = [
-  { name: "React", imgPath: "/images/logos/react.png" },
-  { name: "Node.js", imgPath: "/images/logos/node.png" },
-  { name: "Python", imgPath: "/images/logos/python.svg" },
-  { name: "Three.js", imgPath: "/images/logos/three.png" },
-  { name: "Git", imgPath: "/images/logos/git.svg" },
-];
+const techStackImgs = logoIconsList;
 
 const techStackIcons = [
   { name: "React", modelPath: "/models/react_logo-transformed.glb", scale: 1, rotation: [0, 0, 0] },
-  { name: "Python", modelPath: "/models/python-transformed.glb", scale: 0.8, rotation: [0, 0, 0] },
   { name: "Node.js", modelPath: "/models/node-transformed.glb", scale: 5, rotation: [0, -Math.PI / 2, 0] },
   { name: "Three.js", modelPath: "/models/three.js-transformed.glb", scale: 0.05, rotation: [0, 0, 0] },
   { name: "Git", modelPath: "/models/git-svg-transformed.glb", scale: 0.05, rotation: [0, -Math.PI / 4, 0] },
@@ -68,39 +74,39 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Built and refined full-stack portfolio projects with a strong focus on practical engineering, product UX and deployment readiness.",
+    review: "Built and refined portfolio projects around practical full-stack engineering, AI features and real product workflows.",
     imgPath: "/images/exp1.png",
     logoPath: "/images/logo1.png",
-    title: "Full-Stack Developer",
-    date: "2025 - Present",
+    title: "Full-Stack Development",
+    date: "2024 - Present",
     responsibilities: [
-      "Developed and maintained MERN-style applications with React, Node.js, Express and MongoDB.",
-      "Implemented authentication, authorization, payments, reviews, cart and order workflows.",
-      "Integrated cloud media, third-party APIs and deployment workflows for real-world applications.",
+      "Developed web applications using React, Next.js, Node.js, Express and MongoDB.",
+      "Implemented authentication, authorization, carts, orders, reviews, payments and media uploads.",
+      "Worked across frontend, backend APIs, data modeling, deployment and debugging.",
     ],
   },
   {
-    review: "Designed AI-assisted product discovery flows that combine natural language understanding with real database-backed results.",
+    review: "Focused on turning LLMs into useful product capabilities rather than generic chat interfaces.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
-    title: "AI Integration & Backend Engineering",
+    title: "AI & Product Integration",
     date: "2026 - Present",
     responsibilities: [
       "Integrated Google Gemini into grocery and food-delivery applications for natural-language discovery.",
-      "Added deterministic search fallbacks, server-side ID validation and catalog-grounded responses.",
-      "Worked across API design, authentication debugging, deployment configuration and frontend integration.",
+      "Connected AI responses to real MongoDB catalog data with server-side validation and deterministic fallbacks.",
+      "Built user-facing AI assistant interfaces that return actionable product results.",
     ],
   },
   {
-    review: "Continuously expanding a portfolio of frontend, backend and interactive projects while strengthening software engineering fundamentals.",
+    review: "Continuously expanding a portfolio of real-world projects while improving engineering fundamentals and delivery practices.",
     imgPath: "/images/exp3.png",
     logoPath: "/images/logo3.png",
-    title: "Software Development Projects",
+    title: "Software Engineering Projects",
     date: "2024 - Present",
     responsibilities: [
       "Built responsive interfaces with React, Tailwind CSS, Redux Toolkit and modern component patterns.",
-      "Explored 3D experiences with Three.js and GSAP alongside conventional web application development.",
-      "Maintained multiple GitHub repositories and iterated on features through local testing and deployment.",
+      "Worked with Stripe, Razorpay, Cloudinary, Socket.IO, Leaflet and third-party APIs.",
+      "Used Git/GitHub, Vercel and local testing workflows to iterate from feature idea to deployment.",
     ],
   },
 ];
@@ -115,25 +121,25 @@ const testimonials = [
   {
     name: "What I Build",
     mentions: "@fullstack",
-    review: "End-to-end applications that connect polished interfaces with real APIs, data models, authentication and business workflows.",
+    review: "End-to-end applications that connect polished interfaces with real APIs, databases, authentication and business workflows.",
     imgPath: "/images/client1.png",
   },
   {
     name: "How I Solve",
     mentions: "@engineering",
-    review: "I prefer practical solutions: validate AI output, protect APIs, keep fallbacks available and debug the complete request flow from UI to database.",
+    review: "I prefer practical systems: validate external outputs, protect APIs, keep fallbacks available and trace the complete request flow.",
     imgPath: "/images/client3.png",
   },
   {
     name: "What I’m Exploring",
     mentions: "@aiandweb",
-    review: "AI-assisted product discovery, real-time application patterns, immersive interfaces and stronger deployment architecture.",
+    review: "AI-assisted search, realtime application patterns, immersive interfaces and stronger production architecture.",
     imgPath: "/images/client2.png",
   },
   {
     name: "My Workflow",
     mentions: "@buildship",
-    review: "Build locally, verify the integration, commit cleanly, push to GitHub and deploy only after the feature works end to end.",
+    review: "Build locally, verify the integration, commit cleanly, push to GitHub and deploy once the feature works end to end.",
     imgPath: "/images/client5.png",
   },
   {
@@ -152,7 +158,7 @@ const testimonials = [
 
 const socialImgs = [
   { name: "linkedin", imgPath: "/images/linkedin.png" },
-  { name: "github", imgPath: "/images/github.svg" },
+  { name: "github", imgPath: "https://cdn.simpleicons.org/github/FFFFFF" },
   { name: "x", imgPath: "/images/x.png" },
 ];
 
