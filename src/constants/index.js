@@ -47,7 +47,7 @@ const logoIconsList = [
 
 const abilities = [
   {
-    imgPath: "/images/code.png",
+    imgPath: "/images/code.svg",
     title: "Full-Stack Engineering",
     desc: "Builds end-to-end applications with React or Next.js, Express/Node.js APIs, MongoDB data models and production-focused workflows.",
   },
@@ -76,7 +76,7 @@ const expCards = [
   {
     review: "Built and refined portfolio projects around practical full-stack engineering, AI features and real product workflows.",
     imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    logoPath: "https://cdn.simpleicons.org/react/61DAFB",
     title: "Full-Stack Development",
     date: "2024 - Present",
     responsibilities: [
@@ -88,7 +88,7 @@ const expCards = [
   {
     review: "Focused on turning LLMs into useful product capabilities rather than generic chat interfaces.",
     imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
+    logoPath: "https://cdn.simpleicons.org/googlegemini/8E75FF",
     title: "AI & Product Integration",
     date: "2026 - Present",
     responsibilities: [
@@ -100,7 +100,7 @@ const expCards = [
   {
     review: "Continuously expanding a portfolio of real-world projects while improving engineering fundamentals and delivery practices.",
     imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
+    logoPath: "https://cdn.simpleicons.org/mongodb/47A248",
     title: "Software Engineering Projects",
     date: "2024 - Present",
     responsibilities: [
@@ -112,9 +112,9 @@ const expCards = [
 ];
 
 const expLogos = [
-  { name: "Development", imgPath: "/images/logo1.png" },
-  { name: "AI", imgPath: "/images/logo2.png" },
-  { name: "Projects", imgPath: "/images/logo3.png" },
+  { name: "Development", imgPath: "https://cdn.simpleicons.org/react/61DAFB" },
+  { name: "AI", imgPath: "https://cdn.simpleicons.org/googlegemini/8E75FF" },
+  { name: "Projects", imgPath: "https://cdn.simpleicons.org/mongodb/47A248" },
 ];
 
 const testimonials = [
