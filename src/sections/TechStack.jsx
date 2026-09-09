@@ -11,7 +11,8 @@ const skillGroups = [
   { title: "Payments & Cloud", skills: "Stripe, Razorpay, Cloudinary, EmailJS, Nodemailer, environment configuration, Vercel" },
   { title: "Realtime & Maps", skills: "Socket.IO, Leaflet, location-aware discovery, realtime order and delivery tracking patterns" },
   { title: "Interactive Web", skills: "Three.js, React Three Fiber, GSAP, ScrollTrigger, animated interfaces" },
-  { title: "Engineering Tools", skills: "Git, GitHub, npm, Postman, Linux development, debugging, API testing, deployment workflows" },
+  { title: "Linux & Development Environment", skills: "Linux, Bash, terminal workflows, package management, environment variables, process and port debugging, CLI tooling" },
+  { title: "Engineering Tools", skills: "Git, GitHub, npm, Postman, debugging, API testing, deployment workflows" },
 ];
 
 const TechStack = () => {
