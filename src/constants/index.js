@@ -39,6 +39,8 @@ const logoIconsList = [
   { name: "Razorpay", imgPath: "https://cdn.simpleicons.org/razorpay/3395FF" },
   { name: "Cloudinary", imgPath: "https://cdn.simpleicons.org/cloudinary/3448C5" },
   { name: "Gemini AI", imgPath: "https://cdn.simpleicons.org/googlegemini/8E75FF" },
+  { name: "Linux", imgPath: "https://cdn.simpleicons.org/linux/FCC624" },
+  { name: "Bash", imgPath: "https://cdn.simpleicons.org/gnubash/4EAA25" },
   { name: "Git", imgPath: "https://cdn.simpleicons.org/git/F05032" },
   { name: "GitHub", imgPath: "https://cdn.simpleicons.org/github/FFFFFF" },
   { name: "Vercel", imgPath: "https://cdn.simpleicons.org/vercel/FFFFFF" },
