@@ -68,7 +68,7 @@ const Contact = () => {
         <div className="grid-12-cols mt-12 md:mt-16">
           <div className="xl:col-span-5">
             <div className="flex-center card-border rounded-xl p-5 sm:p-7 md:p-10">
-              <form ref={formRef} onSubmit={handleSubmit} className="w-full flex flex-col gap-6 md:gap-7" noValidate>
+              <form ref={formRef} onSubmit={handleSubmit} className="w-full flex flex-col gap-6 md:gap-7">
                 <div>
                   <label htmlFor="name">Your name</label>
                   <input
