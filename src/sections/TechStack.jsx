@@ -33,34 +33,34 @@ const TechStack = () => {
 
   return (
     <section id="skills" className="section-padding">
-      <div className="w-full px-5 md:px-10">
+      <div className="w-full">
         <TitleHeader
           title="Technical Skills & Tools"
           sub="⚙️ The stack I use to build real products"
         />
 
-        <div className="mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7">
+        <div className="mt-8 sm:mt-10 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7">
           {logoIconsList.map((tech, index) => (
             <div
               key={`${tech.name}-${index}`}
-              className="tech-card group flex min-h-28 flex-col items-center justify-center rounded-2xl border border-white/10 bg-white/[0.03] p-4 text-center backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-white/20 hover:bg-white/[0.07]"
+              className="tech-card group flex min-h-24 sm:min-h-28 flex-col items-center justify-center rounded-2xl border border-white/10 bg-white/[0.03] p-3 sm:p-4 text-center backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:border-white/20 hover:bg-white/[0.07]"
             >
-              <div className="mb-3 flex h-12 w-12 items-center justify-center rounded-xl bg-black/30 p-2.5 shadow-inner">
-                <img src={tech.imgPath} alt={tech.name} className="max-h-9 max-w-9 object-contain" loading="lazy" />
+              <div className="mb-2.5 sm:mb-3 flex h-10 w-10 sm:h-12 sm:w-12 items-center justify-center rounded-xl bg-black/30 p-2 sm:p-2.5 shadow-inner">
+                <img src={tech.imgPath} alt={tech.name} className="max-h-8 max-w-8 sm:max-h-9 sm:max-w-9 object-contain" loading="lazy" />
               </div>
-              <p className="text-xs font-semibold text-white/90 sm:text-sm">{tech.name}</p>
+              <p className="text-[11px] font-semibold text-white/90 sm:text-sm leading-tight">{tech.name}</p>
             </div>
           ))}
         </div>
 
-        <div className="mt-14 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-10 sm:mt-14 grid gap-4 sm:gap-5 md:grid-cols-2 xl:grid-cols-3">
           {skillGroups.map((group) => (
             <div
               key={group.title}
-              className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:bg-white/[0.06]"
+              className="rounded-2xl border border-white/10 bg-white/[0.03] p-5 sm:p-6 backdrop-blur-sm transition duration-300 hover:-translate-y-1 hover:bg-white/[0.06]"
             >
-              <h3 className="text-xl font-semibold text-white">{group.title}</h3>
-              <p className="mt-3 leading-7 text-white/60">{group.skills}</p>
+              <h3 className="text-lg sm:text-xl font-semibold text-white">{group.title}</h3>
+              <p className="mt-2.5 sm:mt-3 text-sm sm:text-base leading-6 sm:leading-7 text-white/60">{group.skills}</p>
             </div>
           ))}
         </div>
