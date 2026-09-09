@@ -69,17 +69,17 @@ const ShowcaseSection = () => {
 
   return (
     <section id="work" ref={sectionRef} className="section-padding">
-      <div className="w-full md:px-10 px-5">
-        <div className="mb-12 text-center">
-          <p className="text-[#70a7ff] text-sm uppercase tracking-[0.3em]">Selected Work</p>
-          <h2 className="mt-3 text-4xl md:text-5xl font-semibold">Projects I’ve Built</h2>
-          <p className="mx-auto mt-4 max-w-3xl text-white-50 md:text-lg">
+      <div className="w-full">
+        <div className="mb-10 md:mb-12 text-center px-1">
+          <p className="text-[#70a7ff] text-xs sm:text-sm uppercase tracking-[0.3em]">Selected Work</p>
+          <h2 className="mt-3 text-3xl sm:text-4xl md:text-5xl font-semibold">Projects I’ve Built</h2>
+          <p className="mx-auto mt-4 max-w-3xl text-sm sm:text-base md:text-lg leading-6 sm:leading-7 text-white-50">
             Real products combining frontend engineering, backend systems, AI integrations,
             payments, authentication, realtime features and cloud infrastructure.
           </p>
         </div>
 
-        <div className="grid gap-7 xl:grid-cols-3 md:grid-cols-2 grid-cols-1">
+        <div className="grid gap-6 md:gap-7 xl:grid-cols-3 md:grid-cols-2 grid-cols-1">
           {projects.map((project) => (
             <article
               key={project.title}
@@ -94,18 +94,18 @@ const ShowcaseSection = () => {
 
                 <div className="absolute inset-0 bg-black/0 transition duration-300 group-hover:bg-black/45" />
 
-                <div className="pointer-events-none absolute left-4 right-4 top-4 flex flex-wrap gap-2 opacity-100 transition duration-300 group-hover:opacity-0">
+                <div className="pointer-events-none absolute left-3 right-3 top-3 flex flex-wrap gap-1.5 opacity-100 transition duration-300 group-hover:opacity-0 sm:left-4 sm:right-4 sm:top-4 sm:gap-2">
                   {project.tags.slice(0, 5).map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-full border border-white/10 bg-black/60 px-2.5 py-1 text-[11px] font-medium text-white backdrop-blur-md"
+                      className="rounded-full border border-white/10 bg-black/60 px-2 py-1 text-[10px] font-medium text-white backdrop-blur-md sm:px-2.5 sm:text-[11px]"
                     >
                       {tag}
                     </span>
                   ))}
                 </div>
 
-                <div className="absolute inset-0 flex items-center justify-center gap-3 opacity-0 transition duration-300 group-hover:opacity-100">
+                <div className="absolute inset-0 hidden items-center justify-center gap-3 opacity-0 transition duration-300 group-hover:flex group-hover:opacity-100 sm:flex">
                   {project.deployment && (
                     <a
                       href={project.deployment}
@@ -127,16 +127,16 @@ const ShowcaseSection = () => {
                 </div>
               </div>
 
-              <div className="p-6">
-                <p className="text-xs uppercase tracking-[0.24em] text-[#70a7ff]">{project.label}</p>
-                <h3 className="mt-2 text-2xl font-semibold text-white">{project.title}</h3>
+              <div className="p-5 sm:p-6">
+                <p className="text-[11px] uppercase tracking-[0.24em] text-[#70a7ff] sm:text-xs">{project.label}</p>
+                <h3 className="mt-2 text-xl sm:text-2xl font-semibold leading-tight text-white">{project.title}</h3>
                 <p className="mt-3 text-sm leading-6 text-white/65">{project.description}</p>
 
                 <div className="mt-4 flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-lg border border-white/10 bg-white/[0.04] px-2.5 py-1.5 text-[11px] font-medium text-white/80"
+                      className="rounded-lg border border-white/10 bg-white/[0.04] px-2.5 py-1.5 text-[10px] sm:text-[11px] font-medium text-white/80"
                     >
                       {tag}
                     </span>
@@ -145,20 +145,20 @@ const ShowcaseSection = () => {
 
                 <div className="mt-5 space-y-2">
                   {project.features.map((feature) => (
-                    <div key={feature} className="flex items-center gap-2 text-sm text-white/80">
-                      <span className="h-1.5 w-1.5 rounded-full bg-[#70a7ff]" />
+                    <div key={feature} className="flex items-start gap-2 text-sm text-white/80">
+                      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#70a7ff]" />
                       <span>{feature}</span>
                     </div>
                   ))}
                 </div>
 
-                <div className="mt-6 flex flex-wrap gap-3">
+                <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                   {project.deployment && (
                     <a
                       href={project.deployment}
                       target="_blank"
                       rel="noreferrer"
-                      className="inline-flex items-center rounded-xl bg-white px-4 py-2.5 text-sm font-semibold text-black transition hover:bg-[#dbeafe]"
+                      className="inline-flex w-full items-center justify-center rounded-xl bg-white px-4 py-2.5 text-sm font-semibold text-black transition hover:bg-[#dbeafe] sm:w-auto"
                     >
                       Live Demo →
                     </a>
@@ -167,7 +167,7 @@ const ShowcaseSection = () => {
                     href={project.code}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center rounded-xl border border-white/15 bg-white/[0.04] px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-white/[0.09]"
+                    className="inline-flex w-full items-center justify-center rounded-xl border border-white/15 bg-white/[0.04] px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-white/[0.09] sm:w-auto"
                   >
                     View Code →
                   </a>
