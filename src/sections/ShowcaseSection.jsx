@@ -23,7 +23,7 @@ const projects = [
     description: "A MERN food-delivery application with role-based customer, owner and delivery workflows, location-aware restaurant discovery, Razorpay payments, Socket.IO realtime features and a Gemini-powered food assistant.",
     image: "/images/project-vingo.svg",
     alt: "Vingo technology stack overview thumbnail",
-    deployment: "https://vingo-food-delivery.vercel.app",
+    deployment: "https://vingo-food-delivery-cnjr.vercel.app",
     code: "https://github.com/duttasirius/vingo-Food-Delivery",
     tags: ["React", "Node.js", "Express", "MongoDB", "Gemini AI", "Socket.IO", "Razorpay"],
     features: ["AI food assistant", "Realtime order updates", "Razorpay payments"],
