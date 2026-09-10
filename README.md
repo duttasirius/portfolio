@@ -52,7 +52,7 @@ MERN food-delivery platform with separate customer, restaurant-owner, and delive
 
 **Stack:** React · Node.js · Express · MongoDB · Gemini AI · Socket.IO · Razorpay
 
-- Live: https://vingo-food-delivery.vercel.app
+- Live: https://vingo-food-delivery-cnjr.vercel.app
 - Code: https://github.com/duttasirius/vingo-Food-Delivery
 
 ### 🛍️ MultiCart — Multi-Vendor Marketplace
@@ -105,7 +105,7 @@ portfolio/
 │   ├── sections/            # Hero, projects, experience, skills, contact, etc.
 │   ├── App.jsx              # Application composition
 │   ├── main.jsx             # React entry point
-│   └── index.css            # Global styles
+│   └── index.css             # Global styles
 ├── index.html
 ├── package.json
 └── README.md
