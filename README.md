@@ -1,10 +1,17 @@
 # Sagnik Dutta — Full-Stack & AI Developer Portfolio
 
-> Personal portfolio showcasing full-stack applications, AI-powered product experiences, and interactive 3D web development.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/duttasirius/portfolio/sagnik-portfolio/public/images/bg.png" alt="Sagnik Dutta portfolio preview" width="100%" />
+</p>
 
-**Live Portfolio:** Add your production URL here  
-**GitHub:** https://github.com/duttasirius  
-**LinkedIn:** https://www.linkedin.com/in/sagnik-dutta-dev/
+<p align="center">
+  <strong>Full-Stack & AI Developer building modern web products with React, Node.js, MongoDB, AI integrations, and interactive 3D experiences.</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/duttasirius">GitHub</a> •
+  <a href="https://www.linkedin.com/in/sagnik-dutta-dev/">LinkedIn</a>
+</p>
 
 ---
 
