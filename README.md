@@ -1,142 +1,184 @@
-<div align="center">
-  <br />
-    <a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank">
-      <img src="public/images/readme.png" alt="Project Banner">
-    </a>
-  <br />
+# Sagnik Dutta — Full-Stack & AI Developer Portfolio
 
-  <div>
-    <img src="https://img.shields.io/badge/-Three.js-black?style=for-the-badge&logo=three.js&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </div>
+> Personal portfolio showcasing full-stack applications, AI-powered product experiences, and interactive 3D web development.
 
-  <h3 align="center">Interactive 3D Portfolio Website</h3>
+**Live Portfolio:** Add your production URL here  
+**GitHub:** https://github.com/duttasirius  
+**LinkedIn:** https://www.linkedin.com/in/sagnik-dutta-dev/
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
+---
 
-## 📋 <a name="table">Table of Contents</a>
+## 👋 About
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets & Snippets](#links)
-6. 🚀 [More](#more)
+This repository contains my personal developer portfolio, built to present my engineering work, technical skills, experience, and selected production-style projects.
 
-## ⚠️ Tutorial
+The portfolio focuses on combining **strong frontend engineering, full-stack development, AI integrations, responsive UX, and interactive 3D experiences**.
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+### What I work with
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+- ⚛️ React & modern frontend development
+- 🟢 Node.js, Express & REST APIs
+- 🍃 MongoDB & Mongoose
+- 🤖 AI integrations with Gemini
+- 💳 Payment integrations
+- 🔐 Authentication & authorization
+- ⚡ Realtime applications with Socket.IO
+- 🎨 Three.js / React Three Fiber / GSAP
+- ☁️ Cloud deployment and third-party services
 
-<a href="https://www.youtube.com/watch?v=E-fdPfRxkzQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+---
 
-## <a name="introduction">🤖 Introduction</a>
+## 🚀 Featured Projects
 
-The 3D Portfolio project is a highly engaging personal website that features animated 3D scenes, smooth camera transitions, interactive model showcases, and responsive design. It’s ideal for developers, designers, or freelancers looking to stand out in the digital crowd.
+### 🛒 GreenCart — AI Grocery E-Commerce
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+Full-stack grocery marketplace featuring AI-powered natural-language product discovery, multivendor commerce, seller workflows, reviews, Cloudinary media, and Stripe checkout.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+**Stack:** React · Node.js · Express · MongoDB · Gemini AI · Stripe · Cloudinary
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+- Live: https://ggrocery-hjzq.vercel.app/
+- Code: https://github.com/duttasirius/ggrocery
 
-- Three.js
-- React Three Fiber
-- Drei
-- GSAP
-- Tailwind CSS
-- Vite
-- React 19
+### 🍔 Vingo — Food Delivery Platform
 
-## <a name="features">🔋 Features</a>
+MERN food-delivery platform with separate customer, restaurant-owner, and delivery workflows, location-aware discovery, realtime order features, Razorpay payments, and a Gemini-powered food assistant.
 
-### Features of the 3D Portfolio Project
+**Stack:** React · Node.js · Express · MongoDB · Gemini AI · Socket.IO · Razorpay
 
-👉 Animated 3D models and reveal animations
+- Live: https://vingo-food-delivery.vercel.app
+- Code: https://github.com/duttasirius/vingo-Food-Delivery
 
-👉 Realistic lighting and shadows
+### 🛍️ MultiCart — Multi-Vendor Marketplace
 
-👉 GSAP-powered scroll interactions
+Production-oriented marketplace with customer, vendor, and admin roles, AI shopping assistance, MongoDB product search, Stripe checkout, order lifecycle management, and Cloudinary media.
 
-👉 Responsive design with Tailwind CSS and Flexbox/Grid
+**Stack:** Next.js · TypeScript · MongoDB · Redux · Stripe · Cloudinary
 
-👉 Micro Interactions
+- Live: https://multivendor-six.vercel.app/
+- Code: https://github.com/duttasirius/multivendor
 
-👉 Multi-section layout (About, Projects, Contact)
+---
 
-👉 Mobile optimized 3D experience
+## ✨ Portfolio Features
 
-and many more, including code architecture and reusability.
+- Interactive 3D scenes using Three.js and React Three Fiber
+- GSAP-powered animations and scroll interactions
+- Responsive layouts across desktop, tablet, and mobile
+- Animated project showcase with live-demo and source-code links
+- Technical skills and experience sections
+- Interactive 3D contact experience
+- Functional contact form powered by EmailJS
+- Client-side form validation and submission feedback
+- SEO-friendly page metadata and social sharing metadata
 
-## <a name="quick-start">🤸 Quick Start</a>
+---
 
-Follow these steps to set up the project locally on your machine.
+## 🛠️ Tech Stack
 
-**Prerequisites**
+| Category | Technologies |
+| --- | --- |
+| Frontend | React 19, Vite, Tailwind CSS |
+| 3D | Three.js, React Three Fiber, Drei |
+| Animation | GSAP, @gsap/react |
+| Forms | EmailJS |
+| Tooling | ESLint, npm, Git, GitHub |
+| Deployment | Vercel |
 
-Make sure you have the following installed on your machine:
+---
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+## 📁 Project Structure
 
-**Cloning the Repository**
-
-```bash
-git clone https://github.com/adrianhajdin/3d-portfolio.git
-cd 3d-portfolio
+```text
+portfolio/
+├── public/
+│   └── images/              # Portfolio and 3D assets
+├── src/
+│   ├── components/          # Reusable UI and 3D components
+│   ├── constants/           # Shared portfolio data
+│   ├── sections/            # Hero, projects, experience, skills, contact, etc.
+│   ├── App.jsx              # Application composition
+│   ├── main.jsx             # React entry point
+│   └── index.css            # Global styles
+├── index.html
+├── package.json
+└── README.md
 ```
 
-**Installation**
+---
 
-Install the project dependencies using npm:
+## ⚙️ Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm
+- Git
+
+### Installation
 
 ```bash
+git clone https://github.com/duttasirius/portfolio.git
+cd portfolio
 npm install
 ```
 
-**Set Up Environment Variables**
+### Environment Variables
 
-Create a new file named `.env` in the root of your project and add the following content:
+The contact form uses EmailJS. Create a `.env` file in the project root:
 
 ```env
-VITE_APP_EMAILJS_SERVICE_ID=
-VITE_APP_EMAILJS_TEMPLATE_ID=
-VITE_APP_EMAILJS_PUBLIC_KEY=
+VITE_APP_EMAILJS_SERVICE_ID=your_service_id
+VITE_APP_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_public_key
 ```
 
-Replace the placeholder values with your actual **[EmailJS](https://www.emailjs.com/)** credentials.
-
-**Running the Project**
+### Run locally
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173/) in your browser to view the project.
+Open the local Vite URL shown in your terminal.
 
+### Production build
 
-## <a name="links">🔗 Assets and Snippets</a>
+```bash
+npm run build
+```
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/pfolio25-kit)**.
+### Lint
 
-<a href="https://jsm.dev/pfolio25-kit" target="_blank">
-  <img src="public/images/readme-video-kit.png" alt="Video Kit Banner">
-</a>
+```bash
+npm run lint
+```
 
+---
 
-## <a name="more">🚀 More</a>
+## 🎯 Engineering Focus
 
-**Advance your skills with JSM Pro Courses**
+This project is intentionally more than a static profile page. It demonstrates how I approach:
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+- Component-based React architecture
+- Responsive UI engineering
+- Interactive 3D experiences
+- Animation performance and user experience
+- Reusable project presentation patterns
+- Client-side form handling and validation
+- Environment-based configuration
+- Integration with external services
+- Production-oriented frontend development
 
-<a href="https://beta.jsmastery.pro/" target="_blank">
-  <img src="public/images/readme-bottom.png" alt="Project Banner">
-</a>
+---
+
+## 📬 Contact
+
+If you are hiring for a **Full-Stack, MERN, React, or AI-focused software engineering role**, I'd be happy to connect.
+
+- GitHub: https://github.com/duttasirius
+- LinkedIn: https://www.linkedin.com/in/sagnik-dutta-dev/
+
+---
+
+## 📄 License
+
+This repository is a personal portfolio project. The portfolio content, personal information, project descriptions, and original modifications are intended for personal use and demonstration.
